@@ -1,0 +1,29 @@
+@font-face{
+  font-family: "Proxima-black";
+  src: url(fonts/ProximaNova-Black.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-bold";
+  src: url(fonts/ProximaNova-Bold.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-light";
+  src: url(fonts/ProximaNovaCond-Light.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-regular";
+  src: url(fonts/ProximaNovaCond-Regular.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-thin";
+  src: url(fonts/ProximaNovaCond-Thin.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: "Proxima-semibold";
+  src: url(fonts/ProximaNovaCond-Semibold.ttf) format("opentype");
+}

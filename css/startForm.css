@@ -1,0 +1,112 @@
+body {
+  background: #3BB8FF;
+}
+body .form {
+  box-shadow: 0 0 32px 1px #0a72ad;
+  height: max-content;
+  position: absolute;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: block;
+  padding: 30px;
+  margin: auto;
+  width: 212px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+body .form__wrapper {
+  width: 590px;
+}
+body .form nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body .form nav ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  color: #E8E8E8;
+  margin: 0 5px;
+}
+body .form--active {
+  color: #000 !important;
+  border-bottom: 2px solid #3BB8FF;
+}
+body .form input {
+  font-family: "Proxima-regular";
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  padding: 6px 0;
+  outline: none;
+  width: 170px;
+  border: 0;
+}
+body .form button {
+  font-family: "Proxima-semibold";
+  box-shadow: 0 0 9px -2px black;
+  text-transform: uppercase;
+  background: #3BB8FF;
+  border-radius: 3px;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  color: #fff;
+  border: 0;
+}
+body .form button:active {
+  padding: 6px 23px;
+}
+body .form .ico {
+  width: 80px;
+  margin: 20px auto;
+  display: block;
+  pointer-events: none;
+}
+body .form .ico::selection {
+  background: none;
+}
+body .form .loginForm, body .form .regForm {
+  display: inline-block;
+}
+body .form .loginForm p, body .form .regForm p {
+  text-align: center;
+}
+body .form .loginForm {
+  margin-left: 20px;
+}
+body .form .loginForm p a {
+  text-decoration: none;
+  color: gray;
+}
+body .form .loginForm .ico {
+  width: 130px;
+}
+body .form .regForm {
+  margin-left: 100px;
+}
+body .form .regForm button {
+  margin: 0 0 0 -10px;
+}
+body .form .regForm p {
+  width: 180px;
+  color: red;
+}
+body .form .warning {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  width: 170px;
+}
+
+/*# sourceMappingURL=startForm.css.map */

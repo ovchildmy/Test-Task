@@ -1,0 +1,59 @@
+body{
+	font-family: "Proxima-regular";
+	background: #3BB8FF;
+
+	.recover{
+		top: 0; right: 0; left: 0; bottom: 0;
+	  box-shadow: 0 0 32px 1px #0a72ad;
+		position: absolute;
+		height: 200px;
+		border-radius: 5px;
+		background: #fff;
+		width: 500px;
+		margin: auto;
+		text-align: center;
+
+		h1{
+			font-family: "Proxima-bold";
+			text-align: center;
+		}
+
+		section{
+			// text-align: center;
+		}
+
+		input{
+			font-family: "Proxima-regular";
+			margin-bottom: 20px;
+			background: #f9f9f9;
+			border-radius: 3px;
+			text-align: center;
+			font-size: 16px;
+			margin-top: 15px;
+			padding: 6px 0;
+			outline: none;
+			width: 170px;
+			border: 0;
+		}
+
+		button{
+			font-family: "Proxima-semibold";
+	    box-shadow: 0 0 9px -2px black;
+			text-transform: uppercase;
+			background: #3BB8FF;
+			border-radius: 3px;
+			padding: 5px 20px;
+			cursor: pointer;
+			font-size: 16px;
+			display: block;
+			margin: 0 auto;	
+			outline: none;
+			color: #fff;
+			border: 0;
+
+			&:active{
+				padding: 6px 23px;
+			}
+		}
+	}
+}
