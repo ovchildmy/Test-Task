@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `db_users` (
   `id` int(4) NOT NULL,
   `name` varchar(15) NOT NULL,
   `surname` varchar(20) NOT NULL,
-  `birthday` date NOT NULL,
+  `birthday` varchar(10) NOT NULL,
   `interests` varchar(1000) NOT NULL,
   `placebirthday` varchar(35) NOT NULL,
   `password` varchar(40) NOT NULL,
